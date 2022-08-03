@@ -1,0 +1,168 @@
+body{
+    background-color:black;
+}
+ .kimg{
+     align-items: center;
+     justify-items: center;
+     display: flex;
+     width: 17%;
+     height: 10%;
+     border-radius: 60rem;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+     border: 0.3rem solid rgb(233, 42, 154);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    margin: auto;
+    width: 40%;
+    font-size: large;
+}
+.link{
+    text-align: right;
+}
+.link ul li{
+    display: inline;
+    padding: 5px;
+    margin-right: 10px;
+    position: relative;
+}
+.link ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(233, 42, 154);
+    margin: 0;
+}
+.link ul li a:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+
+/* ................................about............................ */
+.about h1{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.span{
+    margin-left: 40px;
+    color: rgb(233, 42, 154);
+}
+
+ .column p{
+    text-align: left;
+    margin-left: 18%;
+    width: 70%;
+    padding: 20px;
+}
+
+.info h2{
+    margin-left: 15%;
+    color: rgb(233, 42, 154);
+}
+.info h3{
+    color: aliceblue;
+    margin-left: 20%;
+}
+
+
+
+.edu-skl{
+    box-sizing: border-box;
+
+}
+.interest h2{
+    color: aliceblue;
+    margin-left: 16.5%;
+    margin-top: 18px;
+    color: rgb(233, 42, 154);
+    /* font-size: 33px; */
+    padding-top: 10px;
+}
+.interest ul li{
+    color: aliceblue;
+    margin-left: 63%;
+    font-size: large;
+    padding: 5px;
+}
+.education{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    margin-left: 70px;
+}
+.edu-skl::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.education h2{
+    color: aliceblue;
+    margin-left: 13.5%;
+    padding: 5px;
+    margin-top: .001%;
+    color: rgb(233, 42, 154);
+    /* font-size: 33px; */
+}
+.education h3{
+    color: aliceblue;
+    margin-left: 28%;
+    padding: 2px;
+    font-size: large;
+   
+}
+ 
+/* ............................contact me.............................. */
+
+input[type=text],select,textarea{
+    width: 25%;
+    padding: 12px;
+    border: 3px solid rgb(233, 42, 154);
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+    margin-left: 40%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+input[type=submit]{
+        background-color: #04AA6D;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 40%;
+}
+input[type=submit]:hover{
+       background-color: #45a049;
+}
+.container{
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+  position: relative;
+}
+label{
+    color: white;
+    font-size: large;
+    margin-left: 37%;
+  
+}
+.container p{
+     margin-bottom: 40px;
+}
+
+
