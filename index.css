@@ -78,10 +78,6 @@ p{
 
 
 
-.edu-skl{
-    box-sizing: border-box;
-
-}
 .interest h2{
     color: aliceblue;
     margin-left: 16.5%;
@@ -96,18 +92,18 @@ p{
     font-size: large;
     padding: 5px;
 }
+.interest{
+    margin-top: 85px;
+}
 .education{
     float: left;
-    width: 50%;
+    width: 75%;
     padding: 10px;
-    height: 300px;
-    margin-left: 70px;
+    height: 500px;
+    margin-left: 37px;
+    margin-top: 30px ;
 }
-.edu-skl::after{
-    content: '';
-    display: block;
-    clear: both;
-}
+
 .education h2{
     color: aliceblue;
     margin-left: 13.5%;
@@ -123,6 +119,11 @@ p{
     font-size: large;
    
 }
+.education{
+    padding: 50px;
+}
+
+
  
 /* ............................contact me.............................. */
 
@@ -152,8 +153,10 @@ input[type=submit]:hover{
 .container{
     border-radius: 5px;
     background-color: black;
-    padding: 20px;
-  position: relative;
+    position: absolute;
+    padding: 40px;
+    width: 87%;
+    height: auto;
 }
 label{
     color: white;
@@ -164,5 +167,10 @@ label{
 .container p{
      margin-bottom: 40px;
 }
+.container h1{
+    margin-bottom: 100px;
+}
+
+
 
 
